@@ -1,11 +1,13 @@
 'use strict';
 
 import React from 'react';
+import Layout from '../modules/Layout';
+import Dashboard from './dashboard';
 
-const PlusC = props => {
+export default function(props) {
   return (
-    <div>Hello world from PlusC!</div>
+    <Layout>
+      <Dashboard />
+    </Layout>
   );
 }
-
-export default PlusC;

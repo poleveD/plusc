@@ -36,5 +36,9 @@ module.exports = {
         toType: 'dir'
       }
     ])
-  ]
+  ],
+
+  externals: {
+    OpenLocationCode: 'OpenLocationCode'
+  }
 }
